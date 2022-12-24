@@ -1,6 +1,7 @@
 public class MallardDuck extends Duck {
     public MallardDuck() {
-        super(new FlyWithWings(), new Quack());
+        flyBehavior = new FlyWithWings();
+        quackBehavior = new Quack();
     }
 
     @Override
