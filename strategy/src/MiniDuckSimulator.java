@@ -1,9 +1,10 @@
-public class Main {
+public class MiniDuckSimulator{
     public static void main(String[] args) {
         Duck mallard = new MallardDuck();
         Duck redhead = new RedheadDuck();
         Duck rubber = new RubberDuck();
         Duck decoy = new DecoyDuck();
+        Duck model = new ModelDuck();
 
         mallard.display();
         mallard.performFly();
@@ -26,5 +27,11 @@ public class Main {
         decoy.display();
         decoy.performFly();
         decoy.performQuack();
+
+        System.out.println("--------------");
+
+        model.performFly();
+        model.setFlyBehavior(new FlyRocketPowered());
+        model.performFly();
     }
 }
