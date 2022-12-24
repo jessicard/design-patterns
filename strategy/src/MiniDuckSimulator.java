@@ -5,6 +5,7 @@ public class MiniDuckSimulator{
         Duck rubber = new RubberDuck();
         Duck decoy = new DecoyDuck();
         Duck model = new ModelDuck();
+        DuckCall call = new DuckCall();
 
         mallard.display();
         mallard.performFly();
@@ -33,5 +34,11 @@ public class MiniDuckSimulator{
         model.performFly();
         model.setFlyBehavior(new FlyRocketPowered());
         model.performFly();
+
+        System.out.println("--------------");
+
+        call.performQuack();
+        call.setQuackBehavior(new Squeak());
+        call.performQuack();
     }
 }
