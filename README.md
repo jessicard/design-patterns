@@ -1,7 +1,8 @@
 # Head First Design Patterns
 
-My written examples from the book [Head First Design Patterns](https://www.oreilly.com/library/view/head-first-design/0596007124/).
-Actual example code released [here](https://www.oreilly.com/library/view/head-first-design/0596007124/).
+My written examples from the book [Head First Design Patterns](https://www.oreilly.com/library/view/head-first-design/0596007124/). Written in Java using IntelliJ.
+
+Actual example code released [here](https://resources.oreilly.com/examples/9780596007126).
 
 ![Head First Design Patterns cover image](https://m.media-amazon.com/images/I/51rmlxN57sL._AC_SY780_.jpg)
 
