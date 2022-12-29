@@ -1,5 +1,11 @@
 # Head First Design Patterns
 
+Examples from the book [Head First Design Patterns](https://www.oreilly.com/library/view/head-first-design/0596007124/).
+
+![Head First Design Patterns cover image](https://m.media-amazon.com/images/I/51rmlxN57sL._AC_SY780_.jpg)
+
+---
+
 ### [The Strategy Pattern](/strategy/)
 **The Strategy Pattern** defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from the clients that use it.
 
