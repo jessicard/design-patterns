@@ -1,6 +1,7 @@
 # Head First Design Patterns
 
-Examples from the book [Head First Design Patterns](https://www.oreilly.com/library/view/head-first-design/0596007124/).
+My written examples from the book [Head First Design Patterns](https://www.oreilly.com/library/view/head-first-design/0596007124/).
+Actual example code released [here](https://www.oreilly.com/library/view/head-first-design/0596007124/).
 
 ![Head First Design Patterns cover image](https://m.media-amazon.com/images/I/51rmlxN57sL._AC_SY780_.jpg)
 
