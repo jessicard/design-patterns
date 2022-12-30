@@ -7,7 +7,7 @@ Actual example code released [here](https://resources.oreilly.com/examples/97805
 ![Head First Design Patterns cover image](https://m.media-amazon.com/images/I/51rmlxN57sL._AC_SY780_.jpg)
 
 ---
-## [Publisher's Code](/publisher-code)
+### [Publisher's Code](/publisher-code)
 The code files from the publisher. The ones linked below are my own versions of the exercises.
 
 ### [The Strategy Pattern](/strategy/)
