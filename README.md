@@ -2,16 +2,31 @@
 
 My written examples from the book [Head First Design Patterns](https://www.oreilly.com/library/view/head-first-design/0596007124/). Written in Java using IntelliJ.
 
-Actual example code released [here](https://resources.oreilly.com/examples/9780596007126).
+Actual example code released [here](/publisher-code).
 
 ![Head First Design Patterns cover image](https://m.media-amazon.com/images/I/51rmlxN57sL._AC_SY780_.jpg)
 
 ---
-### [Publisher's Code](/publisher-code)
-The code files from the publisher. The ones linked below are my own versions of the exercises.
 
 ### [The Strategy Pattern](/strategy/)
 **The Strategy Pattern** defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from the clients that use it.
 
 ### [The Observer Pattern](/observer/)
 **The Observer Pattern** defines a one-to-many dependency between objects so that when one object changes state, all of its dependents are notified and updated automatically.
+
+---
+
+## 4 pillars of object-oriented programming
+1. **Abstraction**
+1. **Inheritance**
+1. **Encapsulation**
+1. **Polymorphism**
+
+---
+
+## Design Principles
+1. Identify the aspects of your application that vary and separate them from what stays the same.
+1. Program to an interface, not an implementation.
+1. Favor composition over inheritance.
+1. Strive for loosely coupled designs between objects that interact.
+1. **The Open-Closed Principle** - Classes should be open for extension, but closed for modification.
