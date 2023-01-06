@@ -1,9 +1,18 @@
+import javax.accessibility.AccessibleValue;
+
 public class DarkRoast extends Beverage {
     public DarkRoast() {
-        description = "Dark Roast Coffee";
+        description += " Dark Roast Coffee";
     }
     @Override
     public double cost() {
-        return 0.99;
+        switch(size) {
+            case GRANDE:
+                return 1.99;
+            case VENTE:
+                return 2.99;
+            default:
+                return 0.99;
+        }
     }
 }

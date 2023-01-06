@@ -1,9 +1,16 @@
 public class Espresso extends Beverage {
     public Espresso() {
-        description = "Espresso";
+        description += " Espresso";
     }
     @Override
     public double cost() {
-        return 1.99;
+        switch (size) {
+            case GRANDE:
+                return 2.99;
+            case VENTE:
+                return 3.99;
+            default:
+                return 1.99;
+        }
     }
 }

@@ -1,9 +1,16 @@
 public class HouseBlend extends Beverage {
     public HouseBlend() {
-        description = "House Blend Coffee";
+        description += " House Blend Coffee";
     }
     @Override
     public double cost() {
-        return 0.89;
+        switch (size) {
+            case GRANDE:
+                return 1.89;
+            case VENTE:
+                return 2.89;
+            default:
+                return 0.89;
+        }
     }
 }
