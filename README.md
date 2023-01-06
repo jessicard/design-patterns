@@ -19,7 +19,7 @@ Actual example code released [here](/publisher-code).
 
 ---
 
-## 4 pillars of object-oriented programming
+## OO Basics
 1. **Abstraction**
 1. **Inheritance**
 1. **Encapsulation**
@@ -27,9 +27,9 @@ Actual example code released [here](/publisher-code).
 
 ---
 
-## Design Principles
-1. Identify the aspects of your application that vary and separate them from what stays the same.
-1. Program to an interface, not an implementation.
+## OO Principles
+1. Encapsulate what varies.
 1. Favor composition over inheritance.
+1. Program to an interface, not an implementation.
 1. Strive for loosely coupled designs between objects that interact.
-1. **The Open-Closed Principle** - Classes should be open for extension, but closed for modification.
+1. **The Open-Closed Principle** - Classes should be open for extension but closed for modification.
