@@ -2,10 +2,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Pizza {
-    private String name;
-    private String dough;
-    private String sauce;
-    private List<String> toppings = new ArrayList<String>;
+    protected String name;
+    protected String dough;
+    protected String sauce;
+    protected List<String> toppings = new ArrayList<String>();
 
     public void prepare() {
         System.out.println("Preparing " + name);
