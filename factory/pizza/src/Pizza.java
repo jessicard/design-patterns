@@ -1,21 +1,17 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Pizza {
+abstract class Pizza {
     protected String name;
-    protected String dough;
-    protected String sauce;
-    protected List<String> toppings = new ArrayList<String>();
 
-    public void prepare() {
-        System.out.println("Preparing " + name);
-        System.out.println("Tossing dough...");
-        System.out.println("Adding sauce..");
-        System.out.println("Adding toppings: ");
-        for (String topping : toppings) {
-            System.out.println("   " + topping);
-        }
-    }
+    Dough dough;
+    Sauce sauce;
+    Veggies veggies[];
+    Cheese cheese;
+    Pepperoni pepperoni;
+    Clams clam;
+
+    abstract void prepare();
     public void bake() {
         System.out.println("Bake for 25 minutes at 350");
     }
@@ -25,7 +21,13 @@ public class Pizza {
     public void box() {
         System.out.println("Place pizza in official PizzaStore box");
     }
+    public void setName(String name) {
+        this.name = name;
+    }
     public String getName() {
         return name;
+    }
+    public String toString() {
+        return "code to print pizza here";
     }
 }

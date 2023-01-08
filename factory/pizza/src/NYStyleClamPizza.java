@@ -5,6 +5,6 @@ public class NYStyleClamPizza extends Pizza {
         sauce = "White Sauce";
 
         toppings.add("Grated Reggiano Cheese");
-        toppings.add("Clams");
+        toppings.add("Fresh Clams");
     }
 }

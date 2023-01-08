@@ -1,10 +1,10 @@
 public class CaliforniaStyleClamPizza extends Pizza {
     public CaliforniaStyleClamPizza() {
         name = "California Style Cheese Pizza";
-        dough = "Cracker Crust Dough";
-        sauce = "White Sauce";
+        dough = "Very Thin Crust Dough";
+        sauce = "Bruschetta Sauce";
 
-        toppings.add("3 Cheese Blend");
-        toppings.add("Clams");
+        toppings.add("Goat Cheese");
+        toppings.add("Fresh Clams");
     }
 }
