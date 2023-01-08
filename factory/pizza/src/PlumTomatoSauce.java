@@ -1,2 +1,2 @@
-public class PlumTomatoSauce {
+public class PlumTomatoSauce extends Sauce {
 }

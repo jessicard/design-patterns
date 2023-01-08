@@ -1,2 +1,2 @@
-public class BruschettaSauce {
+public class BruschettaSauce extends Sauce {
 }
