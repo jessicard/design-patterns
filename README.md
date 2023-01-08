@@ -36,4 +36,4 @@ Actual example code released [here](/publisher-code).
 1. Program to an interface, not an implementation.
 1. Strive for loosely coupled designs between objects that interact.
 1. **The Open-Closed Principle** - Classes should be open for extension but closed for modification.
-1. Depend on abstractions. Do not depend upon concrete classes.
+1. **Dependency Inversion** - Depend on abstractions. Do not depend upon concrete classes.
