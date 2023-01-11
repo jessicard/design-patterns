@@ -22,6 +22,9 @@ Actual example code released [here](/publisher-code).
 
 **The Abstract Factory Pattern** provides an interface for creating families of related or dependent objects without specifying their concrete classes.
 
+### [The Singleton Pattern](/singleton/)
+**The Singleton Pattern** ensures a class has only one instance, and provides a global point of access to it.
+
 ---
 
 ## OO Basics
